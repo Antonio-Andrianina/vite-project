@@ -1,0 +1,83 @@
+.admission {
+  padding: 4rem 1.5rem;
+  text-align: center;
+  background-color:#3865c6;
+}
+
+.admission-content {
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+.admission-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fbfbfb;
+  margin-bottom: 2rem;
+}
+
+.admission-description {
+  font-size: 1.25rem;
+  color: #ffffff;
+  max-width: 56rem;
+  margin-bottom: 3rem;
+  line-height: 1.6;
+  margin-inline:auto
+}
+
+.admission-steps {
+  display: grid;
+
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem;
+  border-inline: 1px solid #e5e7eb;
+  background-color: #ffffff;
+
+}
+
+.step-icon {
+  width: 2rem;
+  height: 2rem;
+  color: #2563eb;
+  margin-bottom: 1rem;
+}
+
+.step-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #1e40af;
+  margin-bottom: 0.5rem;
+}
+
+.step-description {
+  color: #4b5563;
+}
+
+.admission-button {
+  background-color: #1e40af;
+  color: white;
+  font-weight: bold;
+  padding: 0.75rem 2rem;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 3rem;
+  display: inline-block;
+}
+
+.admission-button:hover {
+  background-color: #1e3a8a;
+}
+
+@media (min-width: 768px) {
+  .admission-steps {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

@@ -1,0 +1,69 @@
+.program {
+  padding: 4rem 1.5rem;
+  background-color: #f9fafb;
+}
+
+.program-content {
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+.program-title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #1e40af;
+  margin-bottom: 2rem;
+}
+
+.program-description {
+  font-size: 1.25rem;
+  color: #374151;
+  max-width: 56rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.program-structure-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1e40af;
+  margin-bottom: 2rem;
+}
+
+.program-parts {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.program-part {
+  background-color: rgb(252, 216, 214);
+  padding-inline: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.part-percentage {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #b68920;
+  margin-bottom: 0.5rem;
+}
+
+.part-title {
+  color: #0f2442;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .program-parts {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .program-parts {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
