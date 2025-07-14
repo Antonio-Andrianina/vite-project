@@ -1,0 +1,58 @@
+.domains {
+  padding: 4rem 1.5rem;
+  background-color: #f9fafb;
+  text-align: center;
+  
+}
+
+.domains-content {
+  max-width: 72rem;
+  margin: 0 auto;
+
+}
+
+.domains-title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #1e40af;
+  margin-bottom: 2rem;
+}
+
+.domains-intro {
+  font-size: 1.25rem;
+  color: #374151;
+  max-width: 56rem;
+  margin-bottom: 3rem;
+  line-height: 1.6;
+  margin-inline: 1rem;
+}
+
+.domains-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.domain-card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.domain-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #d4cf3b;
+  margin-bottom: 1rem;
+}
+
+.domain-description {
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+  .domains-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

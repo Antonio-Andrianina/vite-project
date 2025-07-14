@@ -1,0 +1,48 @@
+.partners {
+  padding: 4rem 1.5rem;
+  background-color: #f9fafb;
+}
+
+.partners-content {
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+.partners-title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #1e40af;
+  margin-bottom: 2rem;
+}
+
+.partners-description {
+  font-size: 1.25rem;
+  color: #374151;
+  max-width: 56rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.partners-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.partner-logo {
+  background-color: white;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partner-text {
+  font-weight: bold;
+  color: #1e40af;
+  text-align: center;
+}

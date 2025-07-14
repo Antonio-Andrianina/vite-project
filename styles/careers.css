@@ -1,0 +1,51 @@
+.careers {
+  padding: 4rem 1.5rem;
+}
+
+.careers-content {
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+.careers-title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #1e40af;
+  margin-bottom: 2rem;
+}
+
+.careers-description {
+  font-size: 1.25rem;
+  color: #374151;
+  max-width: 56rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.careers-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.career-item {
+  background-color: #dbeafe;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.career-name {
+  color: #1e40af;
+  font-weight: 500;
+}
+
+@media (min-width: 640px) {
+  .careers-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .careers-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
